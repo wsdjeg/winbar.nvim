@@ -44,6 +44,8 @@ local function redraw_winbar()
 
   if file_name == '' then
     return
+  elseif vim.regex('^__Tagbar__'):match(file_name) then
+    file_name = 'Tagbar'
   end
 
   local value = '%#SpaceVim_winbar#' .. file_name .. ' %#SpaceVim_winbar_Normal#' .. default_conf.winbar_seperator .. '%#Normal#'
