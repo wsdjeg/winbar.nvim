@@ -44,7 +44,7 @@ local function redraw_winbar()
 
   if file_name == '' then
     return
-  elseif vim.regex('^__Tagbar__'):match(file_name) then
+  elseif vim.regex('^__Tagbar__'):match_str(file_name) then
     file_name = 'Tagbar'
   end
 
