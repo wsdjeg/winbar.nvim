@@ -2,13 +2,15 @@
 
 > _winbar.nvim_ is a plugin which provides default winbar for neovim.
 
-[![](https://spacevim.org/img/build-with-SpaceVim.svg)](https://spacevim.org)
-[![GPLv3 License](https://img.spacevim.org/license-GPLv3-blue.svg)](LICENSE)
+[![GitHub License](https://img.shields.io/github/license/wsdjeg/winbar.nvim)](LICENSE)
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/wsdjeg/winbar.nvim)](https://github.com/wsdjeg/winbar.nvim/issues)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/wsdjeg/winbar.nvim)](https://github.com/wsdjeg/winbar.nvim/commits/master/)
+[![GitHub Release](https://img.shields.io/github/v/release/wsdjeg/winbar.nvim)](https://github.com/wsdjeg/winbar.nvim/releases)
+[![luarocks](https://img.shields.io/luarocks/v/wsdjeg/winbar.nvim)](https://luarocks.org/modules/wsdjeg/winbar.nvim)
 
 <!-- vim-markdown-toc GFM -->
 
 - [Install](#install)
-- [Feedback](#feedback)
 
 <!-- vim-markdown-toc -->
 
@@ -27,10 +29,3 @@
 ```
 Plug 'wsdjeg/winbar.nvim'
 ```
-
-## Feedback
-
-The development of this plugin is in [`SpaceVim/bundle/winbar.nvim`](https://github.com/SpaceVim/SpaceVim/tree/master/bundle/winbar.nvim) directory.
-
-If you encounter any bugs or have suggestions, please file an issue in the [issue tracker](https://github.com/SpaceVim/SpaceVim/issues)
-

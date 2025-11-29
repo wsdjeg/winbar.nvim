@@ -13,7 +13,7 @@ local default_conf = {
 	excluded_filetypes = { "defx" },
 }
 
-local highlight = require("spacevim.api.vim.highlight")
+local highlight = require("winbar.highlight")
 local function def_colors()
 	local name = vim.g.colors_name or "gruvbox"
 
